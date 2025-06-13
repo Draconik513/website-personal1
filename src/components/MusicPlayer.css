@@ -1,0 +1,39 @@
+.music-player {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .music-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
+  .music-toggle.playing {
+    animation: pulse 1.5s infinite;
+  }
+  
+  .volume-control {
+    width: 100px;
+  }
+  
+  .volume-control input {
+    width: 100%;
+    accent-color: var(--primary-color);
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }

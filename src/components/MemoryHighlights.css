@@ -1,0 +1,40 @@
+.memory-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 40px;
+  background: linear-gradient(to bottom right, #ffe6e6, #fff0f5);
+}
+
+.highlight-item {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.highlight-item:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+.highlight-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.highlight-item:hover img {
+  transform: scale(1.05);
+}
+
+.highlight-item p {
+  padding: 16px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #333;
+}

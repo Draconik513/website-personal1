@@ -1,0 +1,22 @@
+.cursor {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ff6b6b;
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+  transition: all 0.1s ease;
+  transition-property: background, transform;
+  mix-blend-mode: difference;
+}
+
+.cursor--hidden {
+  opacity: 0;
+}
+
+.cursor--clicked {
+  transform: translate(-50%, -50%) scale(0.9);
+  background: #ff6b6b;
+}

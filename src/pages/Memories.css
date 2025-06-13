@@ -1,0 +1,21 @@
+.memories-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.memories-page h1 {
+  text-align: center;
+  color: #ff6b6b;
+  margin-bottom: 2rem;
+}
+
+.highlight-section {
+  margin: 3rem 0;
+}
+
+.highlight-section h2 {
+  text-align: center;
+  color: #d63384;
+  margin-bottom: 1.5rem;
+}

@@ -1,0 +1,55 @@
+.our-story-page {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.our-story-page h1 {
+  text-align: center;
+  color: #ff6b6b;
+  margin-bottom: 2rem;
+}
+
+.story-content {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.story-text {
+  flex: 1;
+}
+
+.story-text h2 {
+  color: #d63384;
+  margin-bottom: 1rem;
+}
+
+.story-text p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.story-photo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.anniversary-countdown {
+  background: rgba(255, 107, 107, 0.1);
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .story-content {
+    flex-direction: column;
+  }
+  
+  .story-photo {
+    margin-top: 2rem;
+  }
+}
